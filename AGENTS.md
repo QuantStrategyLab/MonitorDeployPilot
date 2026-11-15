@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Rules for AI assistants and maintainers in `qsl-monitor-deploy-pilot`. Reusable PR governance lives in `Pigbibi/PrGovernance`.
+Rules for AI assistants and maintainers in `MonitorDeployPilot`. Reusable PR governance lives in `Pigbibi/PrGovernance`.
 
 ## What this repository is
 
