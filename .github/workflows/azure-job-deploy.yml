@@ -25,7 +25,7 @@ on:
 permissions: {}
 jobs:
   deploy:
-    if: inputs.operation == 'roundtrip' && github.event_name == 'workflow_dispatch' && github.repository == 'QuantStrategyLab/qsl-monitor-deploy-pilot' && github.ref == 'refs/heads/main'
+    if: inputs.operation == 'roundtrip' && github.event_name == 'workflow_dispatch' && github.repository == 'QuantStrategyLab/MonitorDeployPilot' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 9
     environment: pilot
