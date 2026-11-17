@@ -10,8 +10,7 @@ Documentation follows the [QuantStrategyLab documentation style guide](https://g
 2. Run the local documentation check before pushing:
 
 ```bash
-python3 scripts/test_style.py
-python3 scripts/check_style.py --phase 2
+python3 ../.github/scripts/check_style.py --root . --phase 2
 ```
 
 3. Use English Conventional Commits with headers at most 72 characters, and fill in `.github/pull_request_template.md`.

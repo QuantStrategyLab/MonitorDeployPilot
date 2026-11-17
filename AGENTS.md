@@ -9,8 +9,7 @@ Isolated pilot demonstrating a reusable GitHub Actions workflow and an Azure Con
 ## Local checks
 
 ```bash
-python3 scripts/test_style.py
-python3 scripts/check_style.py --phase 2
+python3 ../.github/scripts/check_style.py --root . --phase 2
 ```
 
 ## Naming and documentation
