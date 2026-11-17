@@ -7,9 +7,11 @@ Documentation follows the [QuantStrategyLab documentation style guide](https://g
 ## Workflow
 
 1. Branch from `origin/main` using a short prefix such as `docs/`, `feat/`, `fix/`, or `chore/`.
-2. Run the local documentation check before pushing:
+2. Run the local documentation check before pushing (with a sibling checkout of `QuantStrategyLab/.github` at the `policy-revision` configured in `.github/workflows/docs-check.yml`):
 
 ```bash
+git clone https://github.com/QuantStrategyLab/.github ../.github
+git -C ../.github checkout b4966bdd8780cad3ae5154ae50d8b98259a16dc6
 python3 ../.github/scripts/check_style.py --root . --phase 2
 ```
 
