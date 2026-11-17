@@ -9,8 +9,9 @@ Isolated pilot demonstrating a reusable GitHub Actions workflow and an Azure Con
 ## Local checks
 
 ```bash
-python3 scripts/test_style.py
-python3 scripts/check_style.py --phase 2
+git clone https://github.com/QuantStrategyLab/.github ../.github
+git -C ../.github checkout b4966bdd8780cad3ae5154ae50d8b98259a16dc6
+python3 ../.github/scripts/check_style.py --root . --phase 2
 ```
 
 ## Naming and documentation
